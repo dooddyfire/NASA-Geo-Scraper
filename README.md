@@ -12,8 +12,9 @@ schedule.every(20).seconds.do(second_file)
 <br>
 ใหม่ (ตั้งให้รันทุกๆ 10.30 น. ของทุกวัน)
 <br>
+
 <code>
 schedule.every().day.at("10:30").do(first_file)
-  <br>
+<br>
 schedule.every().day.at("10:33").do(second_file)
-  </code>
+</code>
